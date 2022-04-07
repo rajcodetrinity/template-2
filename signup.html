@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Sign Up Progressus</title>
+    <!-- ===favicon -->
+    <link rel="shortcut icon" href="images/gt_favicon.png" type="image/x-icon">
+    <!-- ===fontawsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- ===custome css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+     <!-- sign up Header -->
+     <header>
+        <nav class="container">
+            <!-- logo -->
+            <div class="navLogo">
+                <a href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <!-- Links -->
+            <div class="nav_link" id="navLink"> 
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="#">More Pages</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
+                    <li><a href="signin.html" class="btn active">SIGN IN / SIGN UP</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </header>
+    <div class="container ">
+        <ol class="breadcum">
+            <li><a href="index.html" class="blue">Home </a></li>
+            <li class="active">&sol; User access</li>       
+        </ol>
+        <div class="main_row">
+            <article class="main_content ">
+                <div class="page_header">
+                    <h1 class="page_title">Sign Up</h1>
+                </div>
+                <div class="box_width">
+                    <div class="pannel">
+                        <div class="pannel_body">
+                            <h3 class="text_center">Register a new account</h3>
+                            <p class="text_center">Lorem ipsum dolor sit amet, <a href="signin.html" class="blue">Login</a> adipisicing elit. Quo nulla quibusdam cum doloremque incidunt nemo sunt a tenetur omnis odio. </p>
+                            <hr>
+                            <form>
+                                <div class="top_margin">
+                                    <label class="label">First Name</label>
+                                    <input type="text" class="form_control">
+                                </div>
+                                <div class="top_margin">
+                                    <label class="label">Last Name</label>
+                                    <input type="text" class="form_control">
+                                </div>
+                                <div class="top_margin">
+                                    <label class="label">Email Address <span class="font_red">*</span></label>
+                                    <input type="email" class="form_control">
+                                </div>
+                                <div class="top_margin form">
+                                    <div class="form_inner">
+                                    <label class="label">Password <span class="font_red">*</span></label>
+                                    <input type="password" class="form_control"></div>
+                                    <div class="form_inner">
+                                    <label class="label">Confrim Password <span class="font_red">*</span></label>
+                                    <input type="password" class="form_control"></div>
+                                </div>
+                                <hr>
+                                <div class="form">
+                                    <div class="form_last">
+                                        <label for="checkbox" class="checkbox">
+                                            <input type="checkbox"  id="checkbox">
+                                            I'hve read the <a href="#" class="blue">Terms and Conditions</a>
+                                        </label>
+                                        </div>
+                                        <div class="form_last">
+                                            <input type="submit" value="Register" class="btn">
+                                        </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+ <!-- ===footer=== -->
+ <footer class="top-space">
+    <!-- foooter1 -->
+    <div class="footer1">
+        <div class="container">
+            <div class="footer_row">
+                <div class="footer_col">
+                    <h3 class="footer_title">Contact</h3>
+                    <div class="footer_body">
+                        <p>+234 23 9873237 <br>
+                            <a href="mailto:#">some.email@somewhere.com</a> <br> <br>
+								234 Hidden Pond Road, Ashland City, TN 37015
+                        </p>
+                    </div>
+                </div>
+                <div class="footer_col">
+                    <h3 class="footer_title">Follow Me</h3>
+                    <div class="footer_body">
+                        <p class="footer_icon">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="footer_col_lg">
+                    <h3 class="footer_title">Text-Widget</h3>
+                    <div class="footer_body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolores, quibusdam architecto voluptatem amet fugiat nesciunt placeat provident cumque accusamus itaque voluptate modi quidem dolore optio velit hic iusto vero praesentium repellat commodi ad id expedita cupiditate repellendus possimus unde?</p>
+                        <p>Eius consequatur nihil quibusdam! Laborum, rerum, quis, inventore ipsa autem repellat provident assumenda labore soluta minima alias temporibus facere distinctio quas adipisci nam sunt explicabo officia tenetur at ea quos doloribus dolorum voluptate reprehenderit architecto sint libero illo et hic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer2 -->
+    <div class="footer2">
+        <div class="container">
+            <div class="footer2_row">
+                <div class="footer2_col">
+                <div class="footer_nav">
+                    <a href="#">Home  &vert;</a>
+                    <a href="#">About  &vert;</a>
+                    <a href="#">Sidebar  &vert;</a>
+                    <a href="#">contact us  &vert;</a>
+                    <a href="#">sign up  &vert;</a>
+                </div>
+                </div>
+                    <div class="footer2_col">
+                        <div class="text-right">
+                            Copyright © 2014, Your name. Designed by <a href="http://gettemplate.com/" rel="designer">gettemplate</a> 
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- js file  -->
+<script src="js/menu.js"></script>
+</body>
+</html>
